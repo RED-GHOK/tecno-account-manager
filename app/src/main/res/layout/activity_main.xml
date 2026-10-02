@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestor de Cuenta TECNO"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvAccountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de cuenta: com.TECNO.id.account.type"
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvAccountCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuentas encontradas: 0"
+            android:textSize="15sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvAccountName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre: N/A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR CUENTAS"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnRemoveAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOLICITAR ELIMINACIÓN"
+            android:enabled="false"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado: Esperando acción del usuario..."
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
